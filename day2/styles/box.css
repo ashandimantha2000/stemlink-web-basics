@@ -1,0 +1,26 @@
+
+/* OUTER WRAPPER – shows margin */
+.margin-box {
+  background: #ffd6e7; /* margin color */
+  padding: 30px;
+  display: inline-block;
+}
+
+/* BORDER AREA */
+.border-box {
+  border: 10px solid #ff9800;
+  background: #ffe6bf;
+}
+
+/* PADDING AREA */
+.padding-box {
+  padding: 25px;
+  background: #cdefff;
+}
+
+/* CONTENT */
+.content-box {
+  width: 200px;
+  height: 120px;
+  background: white;
+}
