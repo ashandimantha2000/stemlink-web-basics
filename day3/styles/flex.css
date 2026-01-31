@@ -1,0 +1,20 @@
+section {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  /* full viewpoint height */
+  height: 100vh; 
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.container div {
+  background-color: red;
+  color: white;
+  width: 100px;
+  height: 100px;
+  padding: 20px;
+  flex-grow: 1;
+  /* flex-shrink: 0; getting overflow*/ 
+}

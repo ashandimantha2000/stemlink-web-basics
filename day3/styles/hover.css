@@ -1,0 +1,22 @@
+.container div {
+  height: 300px;
+  width: 300px;
+  background-color: blueviolet;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+}
+
+.container div:hover {
+  background-color: aqua;
+  width: 350px;
+  height: 350px;
+}

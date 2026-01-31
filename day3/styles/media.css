@@ -1,0 +1,50 @@
+/* Desktop first*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+}
+
+.box {
+  width: 150px;
+  height: 150px;
+  background: steelblue;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .box {
+    background: orange;
+  }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  body {
+    background: #f2f2f2;
+  }
+
+  .box {
+    width: 100px;
+    height: 100px;
+    background: crimson;
+  }
+}
