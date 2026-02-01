@@ -1,0 +1,28 @@
+.container{
+    color: white;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 2fr 3fr;
+    grid-template-rows: 150px 100px;
+}
+
+.container div{
+    background-color: red;
+    padding: 20px;    
+}
+
+
+#box1{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+#box2 {
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+#box3{
+    grid-column: 2/4 ;
+    grid-row: 2/5;
+}
