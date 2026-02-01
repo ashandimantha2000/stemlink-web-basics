@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.specials{
+    display: flex;
+    justify-content: center;
+
+}
+
+.content{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.food{
+    margin: 10px;
+}
+
+img {
+  width: 24rem;
+}
+
+hr {
+  width: 5rem;
+}
+
+p {
+  width: 20rem; 
+}
