@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resposnsive</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style type="text/tailwindcss">
+      @theme {
+        --color-ashan: #da373d;
+        --color-hello: #00ff00;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="lg:flex lg:flex-row lg:justify-center min-h-screen lg:items-center gap-2 flex flex-col justify-center items-center">
+      <div class="flex justify-center items-center w-36 h-16 bg-ashan rounded">
+        <h1>Hello</h1>
+      </div>
+      <div class="flex justify-center items-center w-36 h-16 bg-blue-600 lg:bg-ashan rounded">
+        <h1>Hello</h1>
+      </div>
+      <div class="flex justify-center items-center w-36 h-16 bg-ashan rounded hover:bg-hello">
+        <h1>Hello</h1>
+      </div>
+    </section>
+  </body>
+</html>

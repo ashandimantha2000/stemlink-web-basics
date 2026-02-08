@@ -3,19 +3,31 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Simplify everyday business tasks</title>
+    <title>Simplify everyday business tasks.</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <style type="text/tailwindcss">
       @theme {
-        --color-ashan: #da373d;
+        --color-clifford: #da373d;
+        --color-ashan: #00ff00;
       }
     </style>
   </head>
   <body>
-    <section class="mx-16">
-      <div class="lg:flex">
-        <div class="max-w-2xl">
-          <div class="bg-blue-600 w-9 rounded-lg">
+    <section
+      class="flex flex-col justify-center min-h-screen items-center mt-36"
+    >
+      <div class="text-center">
+        <h1 class="text-5xl pb-6">Simplify everyday business tasks.</h1>
+        <h3 class="text-xl max-w-2xl text-zinc-600">
+          Because you’d probably be a little confused if we suggested you
+          complicate your everyday business tasks instead.
+        </h3>
+      </div>
+      <div class="pt-16 flex flex-col gap-4 lg:flex-row lg:justify-between">
+        <!-- card -->
+        <div class="max-w-sm">
+          <!-- svg image -->
+          <div class="bg-blue-600 rounded-lg w-10">
             <svg aria-hidden="true" class="h-9 w-9" fill="none">
               <defs>
                 <linearGradient
@@ -39,17 +51,20 @@
               ></path>
             </svg>
           </div>
-          <h4 class="text-blue-600 font-semibold">Reporting</h4>
-          <h2>
+          <h2 class="text-blue-600 font-semibold py-4">Reporting</h2>
+          <h3 class="font-semibold text-xl">
             Stay on top of things with always up-to-date reporting features.
-          </h2>
-          <p>
+          </h3>
+          <br />
+          <p class="text-zinc-400">
             We talked about reporting in the section above but we needed three
             items here, so mentioning it one more time for posterity.
           </p>
         </div>
-        <div class="max-w-2xl">
-          <div class="bg-blue-600 w-9 rounded-lg">
+        <!-- card -->
+        <div class="max-w-sm">
+          <!-- svg image -->
+          <div class="hover:bg-blue-600 bg-zinc-600 rounded-lg w-10">
             <svg aria-hidden="true" class="h-9 w-9" fill="none">
               <defs>
                 <linearGradient
@@ -73,17 +88,20 @@
               ></path>
             </svg>
           </div>
-          <h4 class="text-blue-600 font-semibold">Reporting</h4>
-          <h2>
+          <h2 class="text-blue-600 font-semibold py-4">Reporting</h2>
+          <h3 class="font-semibold text-xl">
             Stay on top of things with always up-to-date reporting features.
-          </h2>
-          <p>
+          </h3>
+          <br />
+          <p class="text-zinc-400">
             We talked about reporting in the section above but we needed three
             items here, so mentioning it one more time for posterity.
           </p>
         </div>
-        <div class="max-w-2xl">
-          <div class="bg-blue-600 w-9 rounded-lg">
+        <!-- card -->
+        <div class="max-w-sm">
+          <!-- svg image -->
+          <div class="hover:bg-blue-600 bg-zinc-600 rounded-lg w-10">
             <svg aria-hidden="true" class="h-9 w-9" fill="none">
               <defs>
                 <linearGradient
@@ -107,15 +125,23 @@
               ></path>
             </svg>
           </div>
-          <h4 class="text-blue-600 font-semibold">Reporting</h4>
-          <h2>
+          <h2 class="text-blue-600 font-semibold py-4">Reporting</h2>
+          <h3 class="font-semibold text-xl">
             Stay on top of things with always up-to-date reporting features.
-          </h2>
-          <p>
+          </h3>
+          <br />
+          <p class="text-zinc-400">
             We talked about reporting in the section above but we needed three
             items here, so mentioning it one more time for posterity.
           </p>
         </div>
+      </div>
+      <div class="bg-zinc-200 rounded-3xl mt-16 ring-1 ring-zinc-300">
+        <img
+          src="./profit-loss.webp"
+          alt="profit-loss"
+          class="m-16 rounded-3xl"
+        />
       </div>
     </section>
   </body>
